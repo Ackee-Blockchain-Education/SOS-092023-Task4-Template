@@ -16,11 +16,12 @@ Here's how it works:
 2. When someone wants to **add a reaction** to a tweet, the program creates a new reaction account (which also has a PDA) and stores important data in it. The seeds for the PDA are chosen to prevent more than one reaction per user on one tweet.
 
 3. Lastly, there are **comments**. A comment includes various fields. One of the variables is called content, which is also limited to a length of **500 bytes**, and it stores the text content of the comment. The content field is also used as input into the PDA of the comment account.
-**Your task is to understand how the program works and implement all parts marked as TODO**.
+
+- **Your task is to understand how the program works and implement all parts marked as TODO, start within the `lib.rs`**.
 
 
 ## Submission Process
-The source code of the on-chain program is stored within the `programs/twitter` folder, in this folder you can also find your TODOs. Further, inside the folder, you will find a file called `lib.rs`, which serves as the entry point to the program. I highly recommend starting your work in this file!
+The source code of the on-chain program is stored within the `programs/twitter` folder, in this folder you can also find your TODOs. Inside the folder, you will find a file called `lib.rs`, which serves as the entry point to the program. We highly recommend starting your work in this file!
 
 - **Please do not commit any other changes than those made within the `programs/twitter` fodler, as it will make the evaluation process more difficult.**
 
