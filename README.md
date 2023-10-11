@@ -64,6 +64,8 @@ With the setup I described above, you should be able to run the following comman
 If you encounter any questions or issues during the installation process or have any inquiries related to the task, please feel free to initiate a discussion on Discord within the Issues Forum.
 
 ## Hints and Useful Links
+[Program Derived Address](https://solanacookbook.com/core-concepts/pdas.html#generating-pdas)
+
 [Account Context](https://docs.rs/anchor-lang/latest/anchor_lang/derive.Accounts.html)
 
 [Account Model](https://solana.wiki/zh-cn/docs/account-model/)
