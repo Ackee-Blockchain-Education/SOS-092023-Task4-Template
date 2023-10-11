@@ -11,11 +11,11 @@ This week's task is similar to a well-known Twitter App. The program can perform
 
 Here's how it works:
 
-1. Someone wants to **create a tweet**. The tweet includes a topic and content. The topic can be up to 32 bytes in size, and the content can be up to 500 bytes. The topic serves as one of the seeds for a PDA account (for the Tweet Account), ensuring that a user can create more than one tweet.
+1. Someone wants to **create a tweet**. The tweet includes a topic and content. The topic can be up to **32 bytes** in size, and the content can be up to **500 bytes**. The topic serves as one of the seeds for a PDA account (for the Tweet Account), ensuring that a user can create more than one tweet.
 
 2. When someone wants to **add a reaction** to a tweet, the program creates a new reaction account (which also has a PDA) and stores important data in it. The seeds for the PDA are chosen to prevent more than one reaction per user on one tweet.
 
-3. Lastly, there are **comments**. A comment includes various fields. One of the variables is called content, which is also limited to a length of 500 bytes, and it stores the text content of the comment. The content field is also used as input into the PDA of the comment account.
+3. Lastly, there are **comments**. A comment includes various fields. One of the variables is called content, which is also limited to a length of **500 bytes**, and it stores the text content of the comment. The content field is also used as input into the PDA of the comment account.
 **Your task is to understand how the program works and implement all parts marked as TODO**.
 
 
