@@ -7,7 +7,7 @@
 This is your **Task 4** in this course. During the previous task, you were introduced to the basics of Solana programming. The goal of this week's task is to further familiarize you with advanced development workflows. In this task, you will become acquainted with concepts such as PDAs, common project structures, proper storage of variable data within accounts, and more.
 
 ### Task details
-This week's task is similar to a well-known Twitter App. The program can perform basic functions like creating tweets, adding/removing tweet reactions (like/dislike, but you can extend it freely, but remember new reactions are no part of evaluation), and adding/removing tweet comments.
+This week's task is similar to a well-known Twitter App. The program can perform basic functions like **creating tweets**, **adding/removing tweet reactions** (like/dislike, you can extend it freely, but remember new reactions are not part of evaluation), **and adding/removing tweet comments**.
 
 Here's how it works:
 
