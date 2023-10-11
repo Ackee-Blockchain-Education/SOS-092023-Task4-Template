@@ -3,7 +3,7 @@
 # Autumn School of Solana 2023
 </div>
 
-## Task 3
+## Task 4
 This is your **Task 4** in this course. During the previous task, you were introduced to the basics of Solana programming. The goal of this week's task is to further familiarize you with advanced development workflows. In this task, you will become acquainted with concepts such as PDAs, common project structures, proper storage of variable data within accounts, and more.
 
 ### Task details
