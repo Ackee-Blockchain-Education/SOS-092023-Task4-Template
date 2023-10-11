@@ -37,7 +37,7 @@ pub struct RemoveReactionContext<'info> {
     // TODO fill the required account macro below
 
     // HINT:
-    // - account should be mutable
+    // - account must be mutable
     // - seeds are :    tweet.topic[..tweet.topic_length as usize].as_ref()
     //                  TWEET_SEED.as_bytes(),
     //                  tweet.tweet_author.key().as_ref()
